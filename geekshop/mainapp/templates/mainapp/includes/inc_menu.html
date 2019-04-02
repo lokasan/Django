@@ -1,0 +1,36 @@
+            {% if page == 'Главная' %}
+            <div class="menu-pos">
+                <ul class="ul-li">
+                    <li class="menu-li"><a href="{% url 'index' %}" class="menu"><font style="color: black"> {{menu.main}}</font></a></li>
+                    <li class="menu-li"><a href="{% url 'catalogue' %}" class="menu">{{menu.catalogue}}</a></li>
+                    <li class="menu-li"><a href="{% url 'contacts' %}" class="menu">{{menu.contacts}}</a></li>  
+                </ul>
+            </div>
+            {% endif %}
+            {% if page == 'Каталог' %}
+            <div class="menu-pos">
+                <ul class="ul-li">
+                    <li class="menu-li"><a href="{% url 'index' %}" class="menu">{{menu.main}}</a></li>
+                    <li class="menu-li"><a href="{% url 'catalogue' %}" class="menu"><font style="color: black">{{menu.catalogue}}</font></a></li>
+                    <li class="menu-li"><a href="{% url 'contacts' %}" class="menu">{{menu.contacts}}</a></li>  
+                </ul>
+            </div>
+            {% endif %}
+            {% if page == 'Контакты' %}
+            <div class="menu-pos">
+                <ul class="ul-li">
+                    <li class="menu-li"><a href="{% url 'index' %}" class="menu">{{menu.main}}</a></li>
+                    <li class="menu-li"><a href="{% url 'catalogue' %}" class="menu">{{menu.catalogue}}</a></li>
+                    <li class="menu-li"><a href="{% url 'contacts' %}" class="menu"><font style="color: black">{{menu.contacts}}</font></a></li>  
+                </ul>
+            </div>
+            {% endif %}
+            {% if page != 'Контакты' and page != 'Главная' and page != 'Каталог' %}
+            <div class="menu-pos">
+                <ul class="ul-li">
+                    <li class="menu-li"><a href="{% url 'index' %}" class="menu">{{menu.main}}</a></li>
+                    <li class="menu-li"><a href="{% url 'catalogue' %}" class="menu">{{menu.catalogue}}</a></li>
+                    <li class="menu-li"><a href="{% url 'contacts' %}" class="menu">{{menu.contacts}}</a></li>  
+                </ul>
+            </div>
+            {% endif %}

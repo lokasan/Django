@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+
+    <head>
+    <meta charset="UTF-8">
+    {% block title %}
+    
+    {% endblock title %}
+    {% block css %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% endblock css %}
+</head>
+
+<body>
+   <div class="wrapper">
+   <div class="top">
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="{% url 'index' %}"><img src="{% static 'img/logo.png' %}" alt="логотип"></a>
+            </div>
+{% block menu %}
+{% endblock menu %}
+        </div>
+        <div class="content">
+            {% block content %}
+            {% endblock content %}
+        </div>
+       </div>
+       </div>
+        <div class="container">
+        <div class="footer">
+            <p class="security">&copy;&nbsp;Все права защищены</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

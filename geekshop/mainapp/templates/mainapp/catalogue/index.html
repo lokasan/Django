@@ -1,0 +1,33 @@
+{% extends 'mainapp/base.html' %}
+{% block title %}
+<title>Каталог</title>
+{% endblock title %}
+{% block menu %}
+{% include 'mainapp/includes/inc_menu.html' %}
+{% endblock menu %}
+{% block content %}
+{% load static %}
+            <h1>Каталог</h1>
+            <div class="photo-catalogue">
+                                <div class="photoimg">
+                    <a href="{% url 'CG318-4K' %}"><img src="{% static 'img/t1.img' %}" alt="Монитор Eizo ColorEdge CG318-4K" class="img-catalogue"></a>
+                    <p>Монитор Eizo ColorEdge CG318-4K</p>
+                    <a href="{% url 'CG318-4K' %}" class="href-brown">Перейти к описанию</a>
+                </div>
+                <div class="photoimg">
+                    <a href="{% url 'CG318-4K' %}"><img src="{% static 'img/t1.img' %}" alt="Монитор Eizo ColorEdge CG318-4K" class="img-catalogue"></a>
+                    <p>Монитор Eizo ColorEdge CG318-4K</p>
+                    <a href="Monitor/Eizo ColorEdge CG318-4K/CG318-4K.html" class="href-brown">Перейти к описанию</a>
+                </div>
+                <div class="photoimg">
+                    <a href="{% url 'CG318-4K' %}"><img src="{% static 'img/t1.img' %}" alt="Монитор Eizo ColorEdge CG318-4K" class="img-catalogue"></a>
+                    <p>Монитор Eizo ColorEdge CG318-4K</p>
+                    <a href="{% url 'CG318-4K' %}" class="href-brown">Перейти к описанию</a>
+                </div>
+                <div class="photoimg">
+                    <a href="Monitor/Eizo ColorEdge CG318-4K/CG318-4K.html"><img src="{% static 'img/t1.img' %}" alt="Монитор Eizo ColorEdge CG318-4K" class="img-catalogue"></a>
+                    <p>Монитор Eizo ColorEdge CG318-4K</p>
+                    <a href="Monitor/Eizo ColorEdge CG318-4K/CG318-4K.html" class="href-brown">Перейти к описанию</a>
+                </div>
+            </div>
+{% endblock %}

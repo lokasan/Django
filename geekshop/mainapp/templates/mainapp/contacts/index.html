@@ -1,0 +1,27 @@
+{% extends 'mainapp/base.html' %}
+{% block title %}
+<title>Контакты</title>
+{% endblock title %}
+{% block menu %}
+{% include 'mainapp/includes/inc_menu.html' %}
+{% endblock menu %}
+{% block content %}
+        <h3>Напишите нам</h3>
+        <form action="">
+            <p>Имя <input type="text" placeholder="{{placeholder.name}}" class="input-name"></p>
+            <p>Email <input type="email" placeholder="{{placeholder.email}}" class="input-email"></p>
+            <p>Тема <input type="text" placeholder="{{placeholder.theme}}" class="input-theme"> </p>
+            Текстовое поле <br><textarea cols="30" rows="10"></textarea> <br>
+            <button type="submit" class="sub-res">Отправить</button>
+            <button type="reset" class="sub-res">Очистить</button>
+            <h3>Адрес магазина</h3>
+            <p>Телефон - 8-(888)-88-88</p>
+            <p>г. Миллерово, ул. Кукушкина 43</p>
+            <p>Email - 123321@mail.ru</p>
+        </form>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae9b24b17b8bfd1b52bff72e8cd7a24e0791550b67a1f08904bc8349eea29e461&amp;width=100%&amp;height=374&amp;lang=ru_RU&amp;scroll=true"></script>
+{% endblock content %}
+
+
+
+
