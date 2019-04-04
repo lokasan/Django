@@ -264,3 +264,18 @@ body {
 .top {
       flex-grow: 1;
 }
+.category-menu {
+    color: saddlebrown;
+    text-decoration: none;
+    font-size: 20px;
+}
+.ul-li-cat {
+    padding-top: 20px;
+    display: none;
+}
+.li-category {
+    padding-left: 40px;
+}
+ul li:hover > ul {
+    display: block;
+}
