@@ -20,7 +20,18 @@
         <div class="header">
             <div class="logo">
                 <a href="{% url 'main' %}"><img src="{% static 'img/logo.png' %}" alt="логотип"></a>
+
             </div>
+        {% if user.is_authenticated %}
+            <div class="nick-log">
+                Добро пожаловать, {{ user.username }}
+                <a href="{% url 'auth:edit' %}">Редактировать профиль</a>
+            <a class='logout' href="{% url 'auth:logout' %}">Выйти</a>
+            </div>
+            {% else %}
+            <a href="{% url 'auth:login' %}">Войти</a>
+            <a href="{% url 'auth:register' %}">Зарегистрироваться</a>
+        {% endif %}
 {% block menu %}
 {% endblock menu %}
         </div>
