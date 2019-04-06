@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 import mainapp.views as mainapp
+import authapp.views as authapp
 from django.conf import settings
 from django.conf.urls import include
 from django.conf.urls.static import static
@@ -23,10 +24,11 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^$', mainapp.main, name='main'),
-    url(r'catalogue/index.html', include('mainapp.urls', namespace='catalogue')),
-    url(r'^contacts/index.html$', mainapp.contacts, name='contacts'),
+    url(r'catalogue/', include('mainapp.urls', namespace='catalogue')),
+    url(r'^contacts/', mainapp.contacts, name='contacts'),
     url(r'^admin/', admin.site.urls),
-    url(r'catalogue/Monitor/Eizo ColorEdge CG318-4K/CG318-4K.html$', mainapp.monitor, name='CG318-4K'),
+    url(r'catalogue/Monitor/Eizo ColorEdge CG318-4K/', mainapp.monitor, name='CG318-4K'),
+    url(r'^auth/', include('authapp.urls', namespace='auth')),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

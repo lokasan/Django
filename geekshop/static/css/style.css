@@ -279,3 +279,10 @@ body {
 ul li:hover > ul {
     display: block;
 }
+.logout {
+    position: absolute;
+    top: 50px;
+}
+.nick-log {
+    text-align: center;
+}
