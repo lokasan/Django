@@ -24,11 +24,12 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^$', mainapp.main, name='main'),
-    url(r'catalogue/', include('mainapp.urls', namespace='catalogue')),
+    url(r'^catalogue/', include('mainapp.urls', namespace='catalogue')),
     url(r'^contacts/', mainapp.contacts, name='contacts'),
     url(r'^admin/', admin.site.urls),
     url(r'catalogue/Monitor/Eizo ColorEdge CG318-4K/', mainapp.monitor, name='CG318-4K'),
     url(r'^auth/', include('authapp.urls', namespace='auth')),
+    url(r'^basket/', include('basketapp.urls', namespace='basket')),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
