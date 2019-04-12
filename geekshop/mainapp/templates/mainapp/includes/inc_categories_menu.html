@@ -1,0 +1,22 @@
+<div class="menu-pos">
+<ul class="ul-li">
+  <li class="menu-li-category">
+    <a href="{% url 'catalogue:catalogue' 0 %}"
+       class="menu" style="{% if request.resolver_match.kwargs.pk == '0' %}
+                color: black;
+              {% endif %}">
+      Все
+    </a>
+  </li>
+  {% for link in prod_cat %}
+    <li class="menu-li-category">
+      <a href="{% url 'catalogue:catalogue' link.pk %}"
+         class="menu" style="{% if request.resolver_match.kwargs.pk|add:'0' == link.pk %}
+                  color: black;
+                {% endif %}">
+        {{ link.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+</div>

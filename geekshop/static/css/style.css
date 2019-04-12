@@ -286,3 +286,6 @@ ul li:hover > ul {
 .nick-log {
     text-align: center;
 }
+.menu-li-category {
+    padding-left: 10px;
+}
