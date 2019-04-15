@@ -1,18 +1,14 @@
-{% extends 'mainapp/base.html' %}
-{% block title %}
-<title>Каталог</title>
-{% endblock title %}
-{% block menu %}
-{% include 'mainapp/includes/inc_menu.html' %}
-{% endblock menu %}
-{% block content %}
+{% extends 'basketapp/base.html' %}
 {% load static %}
-            <h1>Каталог</h1>
-            <div class="photo-catalogue">
-            {% for product in basket %}
-                <div class="photoimg">
-                {{ product.product_id }}
-                </div>
-            {% endfor %}
-            </div>
+
+
+{% block content %}
+    <div class="basket_list">
+        {% include 'basketapp/includes/inc_basket_list.html' %}
+    </div>
+    <button class="btn btn-round">
+        <a href="{% url 'main' %}">
+            на главную
+        </a>
+    </button>
 {% endblock %}
