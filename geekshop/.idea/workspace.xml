@@ -33,10 +33,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainapp/views.py">
+        <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_categories_menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="49" />
+            <state relative-caret-position="340">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adminapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -45,40 +54,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basketapp/views.py">
+        <entry file="file://$PROJECT_DIR$/adminapp/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adminapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="77" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
+            <state relative-caret-position="119">
+              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
               <folding>
-                <element signature="e#0#76#0" expanded="true" />
+                <element signature="e#1#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basketapp/templates/basketapp/includes/inc_basket_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basketapp/templates/basketapp/basket.html">
+        <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/user_update.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
@@ -87,19 +80,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basketapp/templates/basketapp/base.html">
+        <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="815">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basketapp/urls.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authapp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -108,28 +110,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/basket_scripts.js">
+        <entry file="file://$PROJECT_DIR$/authapp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="190">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/adminapp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +135,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -148,44 +144,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/manage.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3d8b9e0c-80cb-4289-95c1-9dae79b0fa23/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/mainapp/models.py" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/urls.py" />
-        <option value="$PROJECT_DIR$/authapp/models.py" />
         <option value="$PROJECT_DIR$/mainapp/json/categories.json" />
         <option value="$PROJECT_DIR$/mainapp/json/products.json" />
         <option value="$PROJECT_DIR$/mainapp/management/commands/fill_db.py" />
         <option value="$PROJECT_DIR$/authapp/templates/authapp/base.html" />
         <option value="$PROJECT_DIR$/authapp/templates/authapp/register.html" />
-        <option value="$PROJECT_DIR$/authapp/forms.py" />
         <option value="$PROJECT_DIR$/authapp/templates/authapp/edit.html" />
         <option value="$PROJECT_DIR$/authapp/urls.py" />
-        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_categories_menu.html" />
-        <option value="$PROJECT_DIR$/geekshop/urls.py" />
         <option value="$PROJECT_DIR$/mainapp/admin.py" />
         <option value="$PROJECT_DIR$/basketapp/admin.py" />
         <option value="$PROJECT_DIR$/basketapp/basketapp/basket.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/catalogue/products_list.html" />
         <option value="$PROJECT_DIR$/basketapp/models.py" />
-        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_menu.html" />
         <option value="$PROJECT_DIR$/basketapp/templates/base.html" />
-        <option value="$PROJECT_DIR$/mainapp/urls.py" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/catalogue/product/product.html" />
         <option value="$PROJECT_DIR$/mainapp/views.py" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/catalogue/index.html" />
-        <option value="$PROJECT_DIR$/geekshop/settings.py" />
         <option value="$PROJECT_DIR$/authapp/views.py" />
-        <option value="$PROJECT_DIR$/authapp/templates/authapp/login.html" />
-        <option value="$PROJECT_DIR$/basketapp/templates/basketapp/base.html" />
         <option value="$PROJECT_DIR$/basketapp/urls.py" />
-        <option value="$PROJECT_DIR$/basketapp/views.py" />
         <option value="$PROJECT_DIR$/basketapp/templates/basketapp/basket.html" />
         <option value="$PROJECT_DIR$/static/js/basket_scripts.js" />
         <option value="$PROJECT_DIR$/basketapp/templates/basketapp/includes/inc_basket_list.html" />
+        <option value="$PROJECT_DIR$/authapp/templates/authapp/login.html" />
+        <option value="$PROJECT_DIR$/basketapp/views.py" />
+        <option value="$PROJECT_DIR$/mainapp/urls.py" />
+        <option value="$PROJECT_DIR$/static/js/jquery-3.4.0.js" />
+        <option value="$PROJECT_DIR$/basketapp/templates/basketapp/base.html" />
+        <option value="$PROJECT_DIR$/geekshop/settings.py" />
+        <option value="$PROJECT_DIR$/geekshop/urls.py" />
+        <option value="$PROJECT_DIR$/adminapp/urls.py" />
+        <option value="$PROJECT_DIR$/adminapp/templates/users.html" />
+        <option value="$PROJECT_DIR$/adminapp/templates/adminapp/includes/inc_menu.html" />
+        <option value="$PROJECT_DIR$/adminapp/templates/adminapp/users.html" />
+        <option value="$PROJECT_DIR$/adminapp/templates/adminapp/products.html" />
+        <option value="$PROJECT_DIR$/authapp/forms.py" />
+        <option value="$PROJECT_DIR$/mainapp/models.py" />
+        <option value="$PROJECT_DIR$/adminapp/templates/adminapp/categories.html" />
+        <option value="$PROJECT_DIR$/adminapp/templates/adminapp/base.html" />
+        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" />
+        <option value="$PROJECT_DIR$/authapp/models.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/adminapp/templates/adminapp/user_delete.html" />
+        <option value="$PROJECT_DIR$/adminapp/templates/adminapp/categories_delete.html" />
+        <option value="$PROJECT_DIR$/adminapp/templates/adminapp/user_update.html" />
+        <option value="$PROJECT_DIR$/adminapp/templates/adminapp/categories_update.html" />
+        <option value="$PROJECT_DIR$/adminapp/forms.py" />
+        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_menu.html" />
+        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_categories_menu.html" />
+        <option value="$PROJECT_DIR$/adminapp/views.py" />
       </list>
     </option>
   </component>
@@ -200,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,158 +219,176 @@
             <path>
               <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="basketapp" type="462c0819:PsiDirectoryNode" />
+              <item name="adminapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="basketapp" type="462c0819:PsiDirectoryNode" />
+              <item name="adminapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="basketapp" type="462c0819:PsiDirectoryNode" />
+              <item name="adminapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="basketapp" type="462c0819:PsiDirectoryNode" />
+              <item name="adminapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="geekshop" type="462c0819:PsiDirectoryNode" />
               <item name="basketapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="adminapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="adminapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="adminapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="adminapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
               <item name="basketapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="catalogue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="catalogue" type="462c0819:PsiDirectoryNode" />
-              <item name="Monitor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="catalogue" type="462c0819:PsiDirectoryNode" />
-              <item name="Monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="Eizo ColorEdge CG318-4K" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="catalogue" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
               <item name="geekshop" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="basketapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="basketapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="basketapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="basketapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
-              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
@@ -371,6 +397,16 @@
               <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
               <item name="geekshop" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (hw) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="hw" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekshop" type="b2602c69:ProjectViewProjectNode" />
@@ -380,6 +416,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,13 +430,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\geekbr\hw\geekshop\adminapp\templates\adminapp" />
+      <recent name="E:\geekbr\hw\geekshop\basketapp\templates\basketapp" />
+      <recent name="E:\geekbr\hw\geekshop\basketapp\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\geekbr\hw\geekshop\mainapp\templates\mainapp\catalogue\product" />
       <recent name="E:\geekbr\hw\geekshop\mainapp\templates\mainapp\catalogue\Monitor\Eizo ColorEdge CG318-4K" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\geekbr\hw\geekshop\basketapp\templates\basketapp" />
-      <recent name="E:\geekbr\hw\geekshop\basketapp\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -459,11 +497,12 @@
       <workItem from="1554717030306" duration="17307000" />
       <workItem from="1554802905645" duration="5991000" />
       <workItem from="1555061097451" duration="10647000" />
+      <workItem from="1555260688591" duration="1364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71282000" />
+    <option name="totallyTimeSpent" value="89627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,18 +517,18 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" sideWeight="0.4978678" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49253732" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.51599145" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.51865673" side_tool="true" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.4946695" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.47547975" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.48400852" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4738806" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.48134327" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -508,83 +547,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://DATABASE/3d8b9e0c-80cb-4289-95c1-9dae79b0fa23" />
-    <entry file="file://$PROJECT_DIR$/mainapp/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/urls.py" />
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/contacts/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://7e44f4d5-6f79-4cd7-8dc3-85cc3145cd3d/schema/main/table/mainapp_product" />
-    <entry file="das://7e44f4d5-6f79-4cd7-8dc3-85cc3145cd3d/schema/main/table/mainapp_productcategory" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ab9ca97c-6707-4b48-ac34-d2c619c39cd0/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d0b8b5d3-5a8b-4294-bf66-dc247e09b370/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7c97955-998f-44a1-981d-830b82956ac8/console.sql" />
-    <entry file="file://$PROJECT_DIR$/mainapp/json/products.json" />
-    <entry file="file://$PROJECT_DIR$/mainapp/json/categories.json" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="353" selection-start-line="353" selection-end-line="353" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/management/commands/fill_db.py" />
-    <entry file="file://$PROJECT_DIR$/authapp/templates/authapp/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authapp/templates/authapp/register.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authapp/templates/authapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="289" column="19" selection-start-line="289" selection-start-column="19" selection-end-line="289" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_catalogue.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_categories_menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authapp/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authapp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authapp/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -594,16 +556,7 @@
     <entry file="file://$PROJECT_DIR$/mainapp/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basketapp/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/basketapp/tests.py" />
     <entry file="file://$PROJECT_DIR$/authapp/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -611,66 +564,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basketapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authapp/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basketapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/catalogue/product/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/catalogue/products_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="86" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/basketapp/admin.py" />
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/catalogue/products_list.html" />
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/catalogue/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -678,29 +576,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/settings.py">
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/catalogue/product/product.html" />
+    <entry file="file://$PROJECT_DIR$/basketapp/templates/basketapp/includes/inc_basket_list.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/basket_scripts.js" />
+    <entry file="file://$PROJECT_DIR$/basketapp/templates/basketapp/basket.html" />
+    <entry file="file://$PROJECT_DIR$/basketapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="153">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authapp/templates/authapp/login.html">
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-3.4.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="179775">
+          <caret line="10587" column="4" selection-start-line="10587" selection-start-column="4" selection-end-line="10587" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basketapp/templates/basketapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+        <state relative-caret-position="578">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authapp/templates/authapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/includes/inc_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_catalogue.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -709,84 +671,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/catalogue/product/product.html">
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        <state relative-caret-position="391">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
+    <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/categories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basketapp/templates/basketapp/base.html">
+    <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="1003">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basketapp/templates/basketapp/includes/inc_basket_list.html">
+    <entry file="file://$PROJECT_DIR$/basketapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
+        <state relative-caret-position="-92" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/basket_scripts.js">
+    <entry file="file://$PROJECT_DIR$/basketapp/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="492">
+          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basketapp/templates/basketapp/basket.html">
+    <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/user_delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basketapp/views.py">
+    <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/categories_delete.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="77" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authapp/templates/authapp/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lib/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="296" column="8" selection-start-line="296" selection-start-column="8" selection-end-line="296" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lib/site-packages/django/core/handlers/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lib/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="468" column="6" selection-start-line="468" selection-start-column="6" selection-end-line="468" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/categories_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding>
-            <element signature="e#0#76#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basketapp/urls.py">
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#1#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/templates/adminapp/user_update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_categories_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

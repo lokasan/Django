@@ -5,10 +5,11 @@
                     {%  if request.resolver_match.namespace != 'catalogue' %}
                         <ul class="ul-li-cat">
                             {% for cat in prod_cat %}
-
+                            {% if cat.is_active != False %}
                             <li class="">
                             <a href="{% url 'catalogue:catalogue' cat.pk %}" class="">{{ cat.name }}</a>
                             </li>
+                                {% endif %}
                             {% endfor %}
                         </ul>
                     {% endif %}
@@ -25,4 +26,5 @@
     {% endif %}
   </span>
 </a>
+
             </div>

@@ -9,6 +9,7 @@
     </a>
   </li>
   {% for link in prod_cat %}
+      {% if link.is_active != False %}
     <li class="menu-li-category">
       <a href="{% url 'catalogue:catalogue' link.pk %}"
          class="menu" style="{% if request.resolver_match.kwargs.pk|add:'0' == link.pk %}
@@ -17,6 +18,7 @@
         {{ link.name }}
       </a>
     </li>
+      {% endif %}
   {% endfor %}
 </ul>
 </div>
