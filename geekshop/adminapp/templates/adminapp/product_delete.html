@@ -7,7 +7,7 @@
     Уверены, что хотите удалить {{ object.name }}
 
     ?
-    <form action="{% url 'admin:category_delete' object.pk %}"
+    <form action="{% url 'admin:product_delete' object.pk %}"
           method="post">
       {% csrf_token %}
       <input class="btn btn-danger" type="submit" value="удалить">

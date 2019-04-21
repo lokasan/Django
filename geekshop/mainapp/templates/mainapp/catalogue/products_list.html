@@ -22,9 +22,10 @@
       </div>
       <div class="photo-catalogue">
         {% for product in products %}
+            {% if product.is_active != False %}
           <div class="photoimg">
 
-              <img src="/media/{{ product.image }}" alt="product" class="img-catalogue">
+              <a href="{% url 'mainapp:product' product.pk %}"> <img src="/media/{{ product.image }}" alt="product" class="img-catalogue"></a>
               <div class="text">
                   <a href="#">
                   <h4>{{ product.name }}</h4>
@@ -34,6 +35,7 @@
               </div>
             </a>
           </div>
+            {% endif %}
         {% endfor %}
 
       </div>

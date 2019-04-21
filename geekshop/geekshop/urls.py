@@ -20,7 +20,8 @@ import authapp.views as authapp
 from django.conf import settings
 from django.conf.urls import include
 from django.conf.urls.static import static
-
+if settings.DEBUG:
+    import debug_toolbar
 
 urlpatterns = [
     url(r'^$', mainapp.main, name='main'),
@@ -30,6 +31,8 @@ urlpatterns = [
     url(r'catalogue/Monitor/Eizo ColorEdge CG318-4K/', mainapp.monitor, name='CG318-4K'),
     url(r'^auth/', include('authapp.urls', namespace='auth')),
     url(r'^basket/', include('basketapp.urls', namespace='basket')),
+    url(r'^__debug__/', include(debug_toolbar.urls)),
+    url(r'^social/', include('social_django.urls', namespace='social')),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
