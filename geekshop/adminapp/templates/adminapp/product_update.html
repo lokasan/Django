@@ -1,4 +1,4 @@
-{% extends 'adminapp/base.html' %}
+{% extends 'authapp/base.html' %}
 {% load static %}
 
 {% block content %}
@@ -9,7 +9,8 @@
   </form>
   <button class="btn btn-round form-control last">
     <a href="{% url 'admin:categories' %}">
-      к списку категорий
+{#        product.category.id#}
+      к списку товаров
     </a>
   </button>
 {% endblock %}
